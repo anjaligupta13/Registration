@@ -1,0 +1,21 @@
+﻿body {
+    background-color: #d3d3d3;
+    color: #fff;
+}
+
+
+.Container {
+    width: 500;
+    margin-left: 620;
+}
+
+.main {
+   
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 1em;
+    
+}
+
+

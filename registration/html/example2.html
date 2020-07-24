@@ -1,0 +1,75 @@
+<html>
+<head>
+    <title>Contact Us</title>
+    <link href="ex1.css" rel="stylesheet" />
+    
+    <script type="text/javascript">
+
+        function validate() {
+            var fname = document.getElementById("fname");
+            var lname = document.getElementById("lname");
+
+            if (fname.value.trim() == "") {
+                alert("Blank First Name");
+                return false;
+            }
+            else if (lname.value.trim() == "") {
+                alert("Blank Last Name");
+                return false;
+            }
+            else if (email.value.trim() == "") {
+                alert("Blank Email id");
+                return false;
+            }
+
+
+            else {
+                return true;
+            }
+        }
+    </script>
+</head>
+                <body>
+                    <form onsubmit="return validate();" action="example1.html">
+                        <br>
+                            <h1><strong ><center style="font-size:larger">Contact Us</center></strong></h1>
+                            <br>
+                                <div class="container">
+                                    <div class="main">
+
+
+
+                                        <div>
+                                            <label><strong>First Name</strong></label>&nbsp
+                                            <input type="text" input id="fname" name="first name" placeholder="Enter First Name" required>
+                                        </div>
+                                            <br>
+                                            <div>
+                                                <label><strong>Last Name</strong></label>&nbsp
+                                                <input type="text" input id="lname" placeholder="Enter Last Name">
+                                            </div>
+                                                    <br>
+
+                                                        <div>
+                                                            <label><strong>Email</strong></label>
+                                                            <input type="email" input id="email" placeholder="Enter Email id">
+                </div>
+
+                                                            <br>
+
+                                                                <div>
+                                                                    <label><strong>Comment</strong></label>
+                                                                    <textarea name="comment"></textarea>
+                                                                </div>
+                                                                <br>
+                                                                    <div>
+
+                                                                        <center> <input type="Submit" style="margin-right:150px" ></center>    
+                </div>
+                                                                    </div>
+
+
+        </div>
+</form>
+        </body>
+</html>
